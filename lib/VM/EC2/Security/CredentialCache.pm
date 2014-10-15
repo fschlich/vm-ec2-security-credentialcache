@@ -1,4 +1,5 @@
 package VM::EC2::Security::CredentialCache;
+
 use strict;
 use warnings;
 use DateTime::Format::ISO8601;
