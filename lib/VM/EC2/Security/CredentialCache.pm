@@ -30,7 +30,7 @@ my $credentials;
 my $credential_expiration_dt;
 
 sub get {
-    my $now = shift;
+    my ($self, $now) = @_;
     if (!defined($credentials)) {
         my $meta = VM::EC2::Instance::Metadata->new;
         defined($meta) || die("Unable to retrieve instance metadata");
