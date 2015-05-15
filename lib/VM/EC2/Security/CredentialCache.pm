@@ -7,7 +7,7 @@ use VM::EC2::Instance::Metadata;
 
 =head1 NAME
 
-VM::EC2::Security::CredentialCache -- Cache credentials respecting expriation time for IAM roles.
+VM::EC2::Security::CredentialCache -- Cache credentials respecting expiration time for IAM roles.
 
 =head1 SYNOPSIS
 
