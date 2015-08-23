@@ -15,7 +15,7 @@ Retrieves the current EC2 instance's IAM credentials and caches them until they 
 
   use VM::EC2::Security::CredentialCache;
 
-  # return a VM::EC2::Security::Credentials if avaiable undef otherwise.
+  # return a VM::EC2::Security::Credentials if available undef otherwise.
   my $credentials = VM::EC2::Security::CredentialCache->get();
 
 =head1 DESCRIPTION
